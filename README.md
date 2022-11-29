@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+The project aims to integrate internationalization framework i18-n.
+
 ## Available Scripts
 
 In the project directory, you can run:

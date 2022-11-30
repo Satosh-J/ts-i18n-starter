@@ -20,6 +20,11 @@ i18n
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
+    },
+    backend: {
+      // for all available options read the backend's repository readme file
+      // loadPath: 'https://firebasestorage.googleapis.com/v0/b/learningwithsocrates-frontend.appspot.com/o/locales%2F{{lng}}%2F{{ns}}.json?alt=media'
+      loadPath: '/locales/{{lng}}/{{ns}}.json'
     }
   });
 
